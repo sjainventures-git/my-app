@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column; 
      color: aliceblue;
-     /* padding-top: 300px; */
+     padding-top: 100px;
 }
 
 .about_title{
@@ -15,8 +15,8 @@
 }
 
 .content_box{
-    width: 70%;
-    justify-content: center;
+    width: 90%;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     /* background-color: blue; */
@@ -24,4 +24,35 @@
 .about_content{
     text-align: center;
     width: 100%;
+}
+
+@media (max-width:900px) {
+    .about{
+        background-color: #13294B;
+        height: 70vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column; 
+         color: aliceblue;
+         /* padding-top: 300px; */
+    }
+    
+    .about_title{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    
+    .content_box{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: blue; */
+    }
+    .about_content{
+        text-align: center;
+        width: 100%;
+    }
+    
 }

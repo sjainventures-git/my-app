@@ -7,7 +7,12 @@ import Fade from 'react-reveal/Fade';
 
 const Ecectika_Gallery = () => {
     return (
-        <div id='gallery'  className="Overall_Gallery">
+        <div id='gallery' className="Overall_Gallery">
+            <div className="mob_title_gallery">
+                <Fade bottom>
+                    <h1 className="mob_gallery_title">GALLERY</h1>
+                </Fade>
+            </div>
 
             <div className="container">
 
