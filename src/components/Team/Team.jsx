@@ -27,13 +27,13 @@ const Team = () => {
            <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
            <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
         </div> 
-        <div className=" row team_wrapper_last">
+        {/* <div className=" row team_wrapper_last">
         <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
            <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
            <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
           
           
-        </div>
+        </div> */}
     </div>
   )
 }

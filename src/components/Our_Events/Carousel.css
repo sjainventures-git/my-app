@@ -8,7 +8,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 220vh;
+    height: 250vh;
     flex-direction: column;
     padding-top: 100px;
     background: url('../../Images/Events_image.png'), linear-gradient(rgba(158, 158, 156, 0.1), rgba(163, 163, 163, 0.1));

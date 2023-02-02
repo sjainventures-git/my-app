@@ -4,9 +4,15 @@ import './Carousel.css'
 import Fade from 'react-reveal/Fade';
 import { Button, Paper } from '@mui/material';
 
-import Imageone from '../../Images/Four_Event.jpeg'
-import Imagetwo from '../../Images/One_Event.jpeg'
-import Imagethree from '../../Images/Five_Event.jpeg'
+import Imageone from '../../Images/EventOne.jpg'
+import Imagetwo from '../../Images/EventTwo.jpg'
+import Imagethree from '../../Images/EventThree.jpg'
+import ImageFour from '../../Images/EventFour.jpg'
+import Imagefive from '../../Images/EventFive.jpg'
+import Imagesix from '../../Images/EventSix.jpg'
+import Imageseven from '../../Images/EventSeven.jpg'
+
+
 import { Link } from 'react-router-dom';
 
 const Our_Events = () => {
@@ -23,10 +29,20 @@ const Our_Events = () => {
           <Paper elevation={3}  className='paper' ><img className='overall_event_img'  src={Imagethree} alt="" srcset="" /></Paper>
 
         </div>
+        <div className='overall_event_section_mega'>
+          <Paper elevation={3}  className='paper' ><img className='overall_event_img' src={ImageFour} alt="" srcset="" /></Paper>
+          <Paper elevation={3}  className='paper' ><img className='overall_event_img'  src={Imagefive} alt="" srcset="" /></Paper>
+          <Paper elevation={3}  className='paper' ><img className='overall_event_img'  src={Imagesix} alt="" srcset="" /></Paper>
+
+        </div>
+        <div className='overall_event_section_mega'>
+          <Paper elevation={3}  className='paper' ><img className='overall_event_img' src={Imageseven} alt="" srcset="" /></Paper>
+        
+        </div>
         
         
       </div>
-      <div className="overall_mega_events">
+      {/* <div className="overall_mega_events">
         <h4 className='overall_sub_events_title'>Mini Events</h4>
         <div className='overall_event_section_mini'>
         <img className='overall_event_img_mini' src={Imageone} alt="" srcset="" />
@@ -34,15 +50,10 @@ const Our_Events = () => {
          <img className='overall_event_img_mini'  src={Imagethree} alt="" srcset="" />
 
         </div>
-        {/* <div className='event_section_mini'>
-        <img className='overall_event_img_mini' src={Imageone} alt="" srcset="" />
-         <img className='overall_event_img_mini'  src={Imagetwo} alt="" srcset="" />
-         <img className='overall_event_img_mini'  src={Imagethree} alt="" srcset="" />
-
-        </div> */}
-        <Link to='events'><Button color="success" variant="contained">Tap here to know more</Button></Link>
+     
          
-      </div>
+      </div> */}
+      <Link to='events'><Button color="success" variant="contained">Tap here to know more</Button></Link>
     </div>
   )
 }

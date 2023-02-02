@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 280vh;
+  height: 220vh;
   padding-top: 30px;
   padding-bottom: 30px;
   background: rgb(0, 0, 0);
@@ -13,9 +13,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 270vh;
+  height: 200vh;
   flex-direction: column;
-  margin-top: 300px;
+  /* margin-top: 300px; */
 
 }
 
@@ -65,139 +65,73 @@
 
 
 @media (max-width:900px) {
-
   .overall_team {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     width: 100%;
-    height: 1310vh;
-    background-color: #000;
+    height: 780vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(0, 0, 0);
+    padding-left: 20px;
   }
-
+  
   .Team {
     display: flex;
-    align-items: center;
-    height: 1280vh;
-    flex-direction: column;
     justify-content: flex-start;
-    margin-top: 200px;
+    align-items: center;
+    height: 770vh;
+    flex-direction: column;
+    margin-top: 300px;
+  
   }
-
+  
   .team_wrapper {
-    height: 300vh;
-    width: 100%;
+    height: 250vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 0px;
-    margin: 0;
-
+   
   }
-
-
+  
   .team_wrapper_last {
-    height: 300vh;
-    width: 100%;
+    height: 180px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
-    margin: 0;
-
+    flex-direction: column;
   }
-
-  .Main_card {
-    width: 200px;
-    height: 260px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 20px;
+  
+  .Main_teams {
+    background-color: #000;
   }
-
+  
   .team_col {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 230px;
+    height: 260px;
     margin-top: 30px;
+    /* margin-left: 20px; */
   }
-
+  
+  .Main_card {
+    width: 200px;
+    height: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+  
   .team_title {
     font-weight: 500;
-    text-align: center;
-    font-size: 24px;
-    margin: 10px 0px 30px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
     color: aliceblue;
+    text-align: center;
+  
   }
-
-
+  
 }
-
-/* 
-@media (max-width:410px) {
-
-  .overall_team{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height:930vh;
-  }
-  .Team{
-      display: flex;
-      align-items: center;
-      height: 870vh;
-      flex-direction: column;
-      justify-content:flex-start;
-     background-color: blueviolet;
-  }
-  .team_wrapper{
-     height:250vh;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     justify-content: flex-start;
-     margin-top: 0px;
-     margin: 0;
-     background-color: blue;
-     margin-top: 10px;
-  }
- 
-  
-  .team_wrapper_last{
-    margin-bottom: 20px;
-    flex-direction: column;
-     height: 170vh;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 0px;
-      justify-content: flex-start;
-      background-color: blue;
-      margin-top: 10px;
-   } 
-   .Main_card{
-    width: 200px;
-    height: 310px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 20px;
-  }
-  
-  col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-} */
