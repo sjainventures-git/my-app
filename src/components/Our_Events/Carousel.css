@@ -15,6 +15,7 @@
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   /* margin-top: 400px; */
 }
 .last_button{
   align-content: start;
@@ -23,7 +24,7 @@
 
 .Overall_events{
     height: 400vh;
-    background-color: #000;
+    background-color: rgb(240, 0, 0);
 
 }
 .Main_box{
@@ -36,12 +37,10 @@
     flex-direction: column;
 }
 
-.mobilestepper{
-    background: #000;
-}
+
 .labelcompo{
    position: relative;
-top: 65%;
+   top: 65%;
    z-index: 99;
    display: flex;
    flex-direction: column;
@@ -122,21 +121,23 @@ margin-bottom: 30px;
     border-radius: 50%;
 }
 
+
 @media (max-width:900px) {
     
     .carousel{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
        flex-direction: column;
        padding: 30px;
+       background: #000;
+       height: 500vh;
     }
     .Main_box{
         /* background-color: blue; */
         padding: 10px;
         width: 95%;
-        height:80vh;
+        height:150vh;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -162,7 +163,7 @@ margin-bottom: 30px;
         width: 100%;
         overflow: 'hidden';
         width: '100%';
-        height:55vh;
+        height:50vh;
         object-fit: cover;
         /* position: absolute; */
     }

@@ -3,9 +3,15 @@ import { Header, Nav, Link, SvgBox } from "./Styles";
 
 import "./Navbar.css";
 import Main_navbar from "./Main_navbar";
+import Links from "../Links/Links";
+import Link_two from "../Links/Link_two";
+
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isItOpen, setIsItOpen] = useState(false);
+  const handleToggle = () => setIsItOpen(!isItOpen);
 
   const iconVariants = {
     opened: {
@@ -66,16 +72,20 @@ function Navbar() {
         </SvgBox>
       </Header>
 
-      <Nav
-        initial={false}
-        variants={menuVariants}
-        animate={isOpen ? "opened" : "closed"}
-      >
-        <Link variants={linkVariants}>OUR JOURNEY</Link>
-        <Link variants={linkVariants}>GALLERY</Link>
-        <Link variants={linkVariants}>SPONSORS</Link>
-        <Link variants={linkVariants}>TEAM</Link>
-        <Link variants={linkVariants}>CONTACT US</Link>
+        <Nav
+         initial={false}
+         variants={menuVariants}
+         animate={isOpen ? "opened" : "closed"}
+         className='navlinkk'
+         onClick={() => setIsOpen(!isOpen)}
+        >
+        <Link variants={linkVariants}><a  href="#home">HOME</a></Link>
+        <Link variants={linkVariants}><a href="#about_section">ABOUT</a></Link>
+        <Link variants={linkVariants}><a href="#sponsor">SPONSORS</a></Link>
+        <Link variants={linkVariants}><a href="#gallery">GALLERY</a></Link>
+        <Link variants={linkVariants}><a href="#contact">CONTACT</a></Link>
+        <Link variants={linkVariants}><Links /></Link>
+        <Link variants={linkVariants}><Link_two /></Link>
       </Nav>
     </div>
    </>

@@ -1,5 +1,4 @@
 import React from 'react'
-import CarouselCom from '../../materialUI/Carousel'
 import './Carousel.css'
 
 import Fade from 'react-reveal/Fade';
@@ -8,6 +7,7 @@ import { Button, Paper } from '@mui/material';
 import Imageone from '../../Images/Four_Event.jpeg'
 import Imagetwo from '../../Images/One_Event.jpeg'
 import Imagethree from '../../Images/Five_Event.jpeg'
+import { Link } from 'react-router-dom';
 
 const Our_Events = () => {
   return (
@@ -24,7 +24,7 @@ const Our_Events = () => {
 
         </div>
         
-         <Button color="success" variant="contained">Tap here to know more</Button>
+        
       </div>
       <div className="mega_events">
         <h4 className='sub_events_title'>Mini Events</h4>
@@ -34,14 +34,14 @@ const Our_Events = () => {
          <img className='event_img_mini'  src={Imagethree} alt="" srcset="" />
 
         </div>
-        <div className='event_section_mini'>
+        {/* <div className='event_section_mini'>
         <img className='event_img_mini' src={Imageone} alt="" srcset="" />
          <img className='event_img_mini'  src={Imagetwo} alt="" srcset="" />
          <img className='event_img_mini'  src={Imagethree} alt="" srcset="" />
 
-        </div>
-        
-         <Button color="success" variant="contained">Tap here to know more</Button>
+        </div> */}
+        <Link to='events'><Button color="success" variant="contained">Tap here to know more</Button></Link>
+         
       </div>
     </div>
   )

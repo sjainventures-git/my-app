@@ -1,7 +1,6 @@
 
 import React from 'react'
 import MultiActionAreaCard from '../../materialUI/CardComponent'
-import BasicTextFields from '../../materialUI/FormComponent'
 import './Team.css'
 import Fade from 'react-reveal/Fade'
 const Team = () => {

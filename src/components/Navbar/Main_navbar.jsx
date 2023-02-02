@@ -42,13 +42,13 @@ export default function Main_navbar() {
 
       <div className='nav-links'>
         
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><a href='#home'>HOME</a></motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#about_section">ABOUT</a></motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><Link to='events'>EVENTS</Link></motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#sponsor">SPONSORS</a></motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#gallery">GALLERY</a></motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><Link to='team'>TEAM</Link> </motion.li>
-      <motion.li whileHover={{ y: -4, scale: 1.1 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#contact">CONTACT</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href='#home'>HOME</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#about_section">ABOUT</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#events">EVENTS</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#sponsor">SPONSORS</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#gallery">GALLERY</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><Link to='team'>TEAM</Link> </motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#contact">CONTACT</a></motion.li>
       </div>
 
 

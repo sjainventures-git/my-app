@@ -8,9 +8,6 @@ const Main_Team = () => {
   return (
     <div className='Main_teams'>
     <Overall_Team />
-    <div>
-    <Link to={'/'}><Button className='last_button'  variant="contained">Back to home</Button></Link>
-    </div>
     </div>
   )
 }

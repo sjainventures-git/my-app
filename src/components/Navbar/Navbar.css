@@ -112,7 +112,9 @@ a{
    display: none;
 }
 
-
+.navlinkk{
+   background-color: #c540ea;
+}
 
 
 @media (max-width: 900px) {

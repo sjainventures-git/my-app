@@ -24,6 +24,7 @@ const OverAll_Design = () => {
     <>
      <Home />
      <About />
+     <Our_Events />
      <Ecectika_Gallery />
      <Sponsor />
      <Contact />
