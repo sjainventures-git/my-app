@@ -27,11 +27,11 @@ function Navbar() {
       top: 0,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.3,
+        staggerChildren: 0.2,
       },
     },
     closed: {
-      top: "-90vh",
+      top: "-100vh",
     },
   };
 

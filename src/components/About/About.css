@@ -2,7 +2,7 @@
     background-color: #13294B;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column; 
      color: aliceblue;
@@ -16,20 +16,26 @@
 
 .content_box{
     width: 90%;
-    justify-content: flex-start;
+    height: 400px;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 25px;
+    padding-right: 25px;
     /* background-color: blue; */
 }
 .about_content{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 300px;
     text-align: center;
-    width: 100%;
 }
 
 @media (max-width:900px) {
     .about{
         background-color: #13294B;
-        height: 70vh;
+        height: 120vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;

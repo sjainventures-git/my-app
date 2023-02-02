@@ -22,15 +22,10 @@ export default function MultiActionAreaCard() {
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Web Development
-          
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
+     
     </Card>
   );
 }

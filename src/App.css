@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;400&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;0,600;0,700;1,300;1,900&family=Nunito+Sans:ital,wght@0,200;1,200;1,300&family=Roboto&family=Space+Mono:ital@1&display=swap');
 *{
     font-family: 'Montserrat', sans-serif;
+    
 }
 .image{
     object-fit: contain;

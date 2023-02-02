@@ -12,7 +12,7 @@ const Overall_Team = () => {
       <div className='close_icon'>
         <Link to={'/'}><Button color='error' variant="contained">Back to home</Button></Link>
       </div>
-      <Fade bottom><h1 className="team_title">PRINCIPLE COORDINATORS</h1></Fade>
+      <Fade bottom><h1 className="team_title">OUR TEAM</h1></Fade>
       <Team />
     </div>
   )
