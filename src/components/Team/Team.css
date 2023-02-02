@@ -1,29 +1,33 @@
 .overall_team {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 220vh;
   padding-top: 30px;
   padding-bottom: 30px;
   background: rgb(0, 0, 0);
   padding-left: 20px;
 }
-
-.Team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200vh;
-  flex-direction: column;
-  /* margin-top: 300px; */
-
+.close_icon_team{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
-
-.team_wrapper {
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.team_wrapper{
+   display: grid;
+   place-items: center;
+   grid-template-columns: repeat(5,1fr);
+   gap: 2rem;
 }
 
 .team_wrapper_last {
@@ -41,8 +45,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 230px;
-  height: 260px;
   /* margin-left: 20px; */
 }
 
@@ -55,12 +57,10 @@
 
 .team_title {
   font-weight: 500;
-  margin-top: 50px;
-  margin-bottom: 200px;
-  padding-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   color: aliceblue;
   text-align: center;
-
 }
 
 
@@ -85,6 +85,8 @@
     margin-top: 300px;
   
   }
+
+  
   
   .team_wrapper {
     height: 250vh;

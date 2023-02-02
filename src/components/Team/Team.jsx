@@ -2,38 +2,16 @@
 import React from 'react'
 import MultiActionAreaCard from '../../materialUI/CardComponent'
 import './Team.css'
+import TeamData from "../../Data/Team"
 import Fade from 'react-reveal/Fade'
 const Team = () => {
   return (
-    <div className='container Team'>
+    <div className='Team'>
         <div className="team_wrapper">
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
+            {TeamData.map((teamMember,index) => (
+               <Fade bottom><div className="team_col"> <MultiActionAreaCard name={teamMember.name} branch={teamMember.branch} domain={teamMember.domain} mobile={teamMember.mobile} email={teamMember.email}/></div></Fade>
+            ))}
         </div>
-        <div className="team_wrapper">
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-        </div>
-        <div className="team_wrapper">
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-        </div> 
-        {/* <div className=" row team_wrapper_last">
-        <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-           <Fade bottom><div className="team_col"> <MultiActionAreaCard /></div></Fade>
-          
-          
-        </div> */}
     </div>
   )
 }
