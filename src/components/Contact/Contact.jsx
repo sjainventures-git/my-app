@@ -1,12 +1,14 @@
 import React from 'react'
 import './Contact.css'
-
+import Logo from '../../Images/Main_logo.png'
+import { FormLabel } from '@mui/material'
+import Form from '.././Form/Forms'
 import Fade from 'react-reveal/Fade'
 const Contact = () => {
   return (
     <div id='contact' className="Main_contact">
          <Fade bottom> <h1 className='footer_title'>ECLECTIKA</h1></Fade>
-       
+         <Form />
          <div className="footer_menu">
           <li>Home</li>
           <li>Events</li>

@@ -46,34 +46,7 @@ const Overall_Events = () => {
         </div>
 
       </div>
-      {/* <div className="mega_events">
-        <h4 className='sub_events_title'>Mini Events</h4>
-        <div className='event_section_mini'>
-        <img className='com_event_img_mini' src={Imageone} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagetwo} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagethree} alt="" srcset="" />
-
-        </div>
-        <div className='event_section_mini'>
-        <img className='com_event_img_mini' src={Imageone} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagetwo} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagethree} alt="" srcset="" />
-
-        </div>
-        <div className='event_section_mini'>
-        <img className='com_event_img_mini' src={Imageone} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagetwo} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagethree} alt="" srcset="" />
-
-        </div>
-        <div className='event_section_mini'>
-        <img className='com_event_img_mini' src={Imageone} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagetwo} alt="" srcset="" />
-         <img className='com_event_img_mini'  src={Imagethree} alt="" srcset="" />
-
-        </div>
-       
-      </div> */}
+   
      
     </div>
   )

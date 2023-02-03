@@ -3,7 +3,6 @@ import { Header, Nav, Link, SvgBox } from "./Styles";
 
 import "./Navbar.css";
 import Main_navbar from "./Main_navbar";
-import Links from "../Links/Links";
 import Link_two from "../Links/Link_two";
 
 
@@ -84,7 +83,7 @@ function Navbar() {
         <Link variants={linkVariants}><a href="#sponsor">SPONSORS</a></Link>
         <Link variants={linkVariants}><a href="#gallery">GALLERY</a></Link>
         <Link variants={linkVariants}><a href="#contact">CONTACT</a></Link>
-        <Link variants={linkVariants}><Links /></Link>
+        <Link variants={linkVariants}><a href="#events">EVENTS</a></Link>
         <Link variants={linkVariants}><Link_two /></Link>
       </Nav>
     </div>
