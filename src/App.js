@@ -14,7 +14,6 @@ import {
 } from 'react-router-dom';
 import OverAll_Design from './OverAll_Design';
 import Overall_Events from './components/Events_Section/Overall_Events';
-import Main_Team from './components/Team/Main_Team';
 
 
 
@@ -28,7 +27,7 @@ function App() {
            <Routes>
                  <Route exact path='/' element={< OverAll_Design />}></Route>
                  <Route  path='events' element={< Overall_Events/>}></Route>
-                 <Route  path='team' element={< Main_Team/>}></Route>
+                 <Route  path='team' element={< Overall_Team/>}></Route>
           </Routes>
           </div>
        </Router>
