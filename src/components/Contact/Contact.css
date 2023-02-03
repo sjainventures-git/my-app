@@ -1,6 +1,6 @@
 .Main_contact{
     background: #000;
-    height: 70vh;
+    height:150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,24 +35,13 @@
     justify-content: space-between;
     margin-top: 10px;
     width:25%;
+   
 }
 .social_icon{
-     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(56, 57, 56, 0.95));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    color: aliceblue;
     margin-left: 13px;
     margin-right: 13px;
-    font-size: 30px;
-    transition: 0.3s;
-}
-.social_icon:hover{
-    background: linear-gradient(rgba(254, 56, 56, 0.95), rgba(118, 28, 28, 0.95));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   margin-left: 13px;
-   margin-right: 13px;
-   font-size: 33px;
-   
+    font-size: 27px;
 
 }
 .icons_container{
@@ -71,12 +60,17 @@
     font-weight: 500;
 }
 
+.contact_info{
+    height: 70vh;
+    width: 200px;
+    background-color: aliceblue;
+}
 /* responsive in mobile */
 
 @media (max-width:900px) {
     .Main_contact{
         background: #000;
-        height: 120vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -97,14 +91,14 @@
       
     }
     li{
-        margin-top: 23px;
+        margin-top: 17px;
         letter-spacing: 5px;
     }
     .footer_icons{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 10px;
         width:25%;
        
     }
