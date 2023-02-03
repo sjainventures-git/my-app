@@ -1,5 +1,28 @@
+import ashwin from './teamimages/ashwin.jpg';
+import gowtham from './teamimages/gowtham.jpg';
+import havilah from './teamimages/havilah.png';
+import krishna from './teamimages/krishna.jpg';
+import Laasya from './teamimages/laasya.jpeg';
+import majji from './teamimages/majji.jpg';
+import pawan from './teamimages/pawan.jpg';
+import rashi from './teamimages/rashi.jpg';
+import saket from './teamimages/saket.jpg';
+import satwik from './teamimages/satwik.jpeg';
+import shruti from './teamimages/shruti.png';
+import suraj from './teamimages/suraj.jpg';
+import umakant from './teamimages/umakant.jpg';
+import vamshi from './teamimages/vamshi.jpg';
+import yash from './teamimages/yash.jpeg';
+import vivek from './teamimages/vivek.png';
+import govind from './teamimages/govind.png';
+
+
+
+
+
 const team = [
     {
+        img: vamshi,
         name: "R.Vamshi",
         branch: "CSE",
         domain: "Event Management",
@@ -7,6 +30,7 @@ const team = [
         email: "",
        },
        {
+        img: saket,
         name: "B.Saketh",
         branch: "CIVIL",
         domain: "Event Management",
@@ -14,6 +38,7 @@ const team = [
         email: "bandarusaketh123@gmail.com"
        },
        {
+        img: majji,
         name: "Majji Yaswanth Sai",
         branch: "META",
         domain: "Event Management",
@@ -21,13 +46,7 @@ const team = [
         email: "majjiyaswanthsai17@gmail.com"
        },
        {
-        name: "Gowtham kilaru",
-        branch: "CSE",
-        domain: "Public Relations",
-        mobile: 6372048153,
-        email: "gowthamkilaru23@gmail.com"
-       },
-       {
+        img: krishna,
         name: "Krishna Agrawal",
         branch: "Biomedical",
         domain: "Event Management",
@@ -35,6 +54,7 @@ const team = [
         email: "krishnaagrawal1055@gmail.com"
        },
        {
+        img: satwik,
         name: "Sathwik reddy ",
         branch: "CIVIL",
         domain: "Event Management",
@@ -42,55 +62,15 @@ const team = [
         email: "sathwikreddy0007@gmail.com"
        },
        {
-        name: "Ashwin Sudhir Umale",
-        branch: "MECH",
-        domain: "creatives",
-        mobile: 8982690492,
-        email: "ashwinumale2@gmail.com"
+        img: gowtham,
+        name: "Gowtham kilaru",
+        branch: "CSE",
+        domain: "Public Relations",
+        mobile: 6372048153,
+        email: "gowthamkilaru23@gmail.com"
        },
        {
-        name: "Govind",
-        branch: "CHEM",
-        domain: "Creatives",
-        mobile: 7386386675,
-        email: "govindkumar38980@gmail.com"
-       },
-       {
-        name: "Havilah",
-        branch: "CHEM",
-        domain: "Creatives",
-        mobile: 8688989980,
-        email: "havilahbunga178100@gmail.com"
-       },
-       {
-        name: "Shruti",
-        branch: "CHEM",
-        domain: "doc",
-        mobile: 8349428617,
-        email: "rathshruti1415@gmail.com"
-       },
-       {
-        name: "Pawan ",
-        branch: "META",
-        domain: "Spons",
-        mobile: 9902073785,
-        email: "vpawansudhir@gmail.com"
-       },
-       {
-        name: "Rashi Sahu",
-        branch: "CHEM",
-        domain: "Spons",
-        mobile: 9479283088,
-        email: "rashisahu3088@gmail.com"
-       },
-       {
-        name: "Yash Samarth",
-        branch: "CIVIL",
-        domain: "Spons",
-        mobile: 8085204422,
-        email: "yashsamarth2001@gmail.com"
-       },
-       {
+        img: suraj,
         name: "Suraj",
         branch: "BT",
         domain: "Public Relations",
@@ -98,6 +78,7 @@ const team = [
         email: "923surajsahu@gmail.com"
        },
        {
+        img: umakant,
         name: "Umakant",
         branch: "ELC",
         domain: "Public Relations",
@@ -105,6 +86,7 @@ const team = [
         email: "293umakantsahu@gmail.com"
        },
        {
+        img: Laasya,
         name: "K S Laasya",
         branch: "ELC",
         domain: "Public Relations",
@@ -112,6 +94,63 @@ const team = [
         email: "laasya2003@gmail.com"
        },
        {
+        img: ashwin,
+        name: "Ashwin Sudhir Umale",
+        branch: "MECH",
+        domain: "Creatives",
+        mobile: 8982690492,
+        email: "ashwinumale2@gmail.com"
+       },
+       {
+        img: govind,
+        name: "Govind",
+        branch: "CHEM",
+        domain: "Creatives",
+        mobile: 7386386675,
+        email: "govindkumar38980@gmail.com"
+       },
+       {
+        img: havilah,
+        name: "Havilah",
+        branch: "CHEM",
+        domain: "Creatives",
+        mobile: 8688989980,
+        email: "havilahbunga178100@gmail.com"
+        },
+        {
+         img: rashi,
+         name: "Rashi Sahu",
+         branch: "CHEM",
+         domain: "Spons",
+         mobile: 9479283088,
+         email: "rashisahu3088@gmail.com"
+        },
+        {
+         img: yash,
+         name: "Yash Samarth",
+         branch: "CIVIL",
+         domain: "Spons",
+         mobile: 8085204422,
+         email: "yashsamarth2001@gmail.com"
+        },
+        {
+         img: pawan,
+         name: "Pawan ",
+         branch: "META",
+         domain: "Spons",
+         mobile: 9902073785,
+         email: "vpawansudhir@gmail.com"
+        },
+        {
+        img: shruti,
+        name: "Shruti",
+        branch: "CHEM",
+        domain: "doc",
+        mobile: 8349428617,
+        email: "rathshruti1415@gmail.com"
+       },
+       {
+        img: vivek,
         name: "vivek",
         branch: "it ",
         domain: "web dxevelopment",

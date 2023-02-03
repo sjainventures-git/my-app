@@ -18,6 +18,7 @@ import Main_Team from './components/Team/Main_Team';
 
 
 
+
 function App() {
   return (
     <div>
@@ -28,7 +29,6 @@ function App() {
                  <Route exact path='/' element={< OverAll_Design />}></Route>
                  <Route  path='events' element={< Overall_Events/>}></Route>
                  <Route  path='team' element={< Main_Team/>}></Route>
-                 
           </Routes>
           </div>
        </Router>
