@@ -1,0 +1,28 @@
+.events{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150vh;
+    /* background: url('../../Images/Events_image.png'), linear-gradient(rgba(31, 54, 115, 0.8), rgba(25, 57, 99, 0.8)); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eventscon{
+    display: flex;
+    flex-direction: column;
+    
+}
+.eventimgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.imge{
+    width: 240px;
+    height: 220px;
+    object-fit: cover;
+    margin-left: 30px;
+}

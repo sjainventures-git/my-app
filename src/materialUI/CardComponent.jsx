@@ -17,7 +17,7 @@ const MultiActionAreaCard = ({img, name, branch, domain, mobile, email}) => {
           className="image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <Typography  gutterBottom variant="h8" component="div">
             {name}
           </Typography>
           <Typography variant="body2" color="text.secondary">

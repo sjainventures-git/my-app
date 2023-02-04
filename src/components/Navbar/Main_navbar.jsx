@@ -2,11 +2,6 @@ import React, { useState, useRef , useEffect} from 'react';
 import './Navbar.css'
 import { motion } from 'framer-motion'
 import Black_logo from '../../Images/black_logo.png'
-import Home from '../Home/Home';
-import * as Scroll from 'react-scroll';
-import {  Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Our_Events from '../Our_Events/Our_Events';
-
 import {
   BrowserRouter as Router,
   Routes,

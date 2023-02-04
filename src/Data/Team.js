@@ -40,7 +40,7 @@ const team = [
        {
         img: majji,
         name: "Majji Yaswanth Sai",
-        branch: "META",
+        branch: "METALLURGY",
         domain: "Event Management",
         mobile: 9691988661,
         email: "majjiyaswanthsai17@gmail.com"
@@ -48,7 +48,7 @@ const team = [
        {
         img: krishna,
         name: "Krishna Agrawal",
-        branch: "Biomedical",
+        branch: "BIOMEDICAL",
         domain: "Event Management",
         mobile: 9893143930,
         email: "krishnaagrawal1055@gmail.com"
@@ -72,7 +72,7 @@ const team = [
        {
         img: suraj,
         name: "Suraj",
-        branch: "BT",
+        branch: "BIOTECH",
         domain: "Public Relations",
         mobile: 9399761604,
         email: "923surajsahu@gmail.com"
@@ -80,7 +80,7 @@ const team = [
        {
         img: umakant,
         name: "Umakant",
-        branch: "ELC",
+        branch: "ELECTRICAL",
         domain: "Public Relations",
         mobile: 7089997141,
         email: "293umakantsahu@gmail.com"
@@ -88,7 +88,7 @@ const team = [
        {
         img: Laasya,
         name: "K S Laasya",
-        branch: "ELC",
+        branch: "ELECTRICAL",
         domain: "Public Relations",
         mobile: 8790799404,
         email: "laasya2003@gmail.com"
@@ -96,7 +96,7 @@ const team = [
        {
         img: ashwin,
         name: "Ashwin Sudhir Umale",
-        branch: "MECH",
+        branch: "MECHANICAL",
         domain: "Creatives",
         mobile: 8982690492,
         email: "ashwinumale2@gmail.com"
@@ -104,7 +104,7 @@ const team = [
        {
         img: govind,
         name: "Govind",
-        branch: "CHEM",
+        branch: "CHEMICAL",
         domain: "Creatives",
         mobile: 7386386675,
         email: "govindkumar38980@gmail.com"
@@ -112,7 +112,7 @@ const team = [
        {
         img: havilah,
         name: "Havilah",
-        branch: "CHEM",
+        branch: "CHEMICAL",
         domain: "Creatives",
         mobile: 8688989980,
         email: "havilahbunga178100@gmail.com"
@@ -120,8 +120,8 @@ const team = [
         {
          img: rashi,
          name: "Rashi Sahu",
-         branch: "CHEM",
-         domain: "Spons",
+         branch: "CHEMICAL",
+         domain: "Sponsorship",
          mobile: 9479283088,
          email: "rashisahu3088@gmail.com"
         },
@@ -129,31 +129,31 @@ const team = [
          img: yash,
          name: "Yash Samarth",
          branch: "CIVIL",
-         domain: "Spons",
+         domain: "Sponsorship",
          mobile: 8085204422,
          email: "yashsamarth2001@gmail.com"
         },
         {
          img: pawan,
          name: "Pawan ",
-         branch: "META",
-         domain: "Spons",
+         branch: "METALLURGY",
+         domain: "Sponsorship",
          mobile: 9902073785,
          email: "vpawansudhir@gmail.com"
         },
         {
         img: shruti,
         name: "Shruti",
-        branch: "CHEM",
-        domain: "doc",
+        branch: "CHEMICAL",
+        domain: "Documentation",
         mobile: 8349428617,
         email: "rathshruti1415@gmail.com"
        },
        {
         img: vivek,
         name: "vivek",
-        branch: "it ",
-        domain: "web dxevelopment",
+        branch: "IT ",
+        domain: "Tech",
         mobile: "",
         email: ""
        }

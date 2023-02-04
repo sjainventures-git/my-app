@@ -2,7 +2,6 @@ import React from 'react'
 import Contact from './components/Contact/Contact'
 import Home from './components/Home/Home'
 import Ecectika_Gallery from './components/Main_Gallery/Gallery'
-import Our_Events from './components/Our_Events/Our_Events'
 import Sponsor from './components/Sponsors/Sponsor'
 import Overall_Team from './components/Team/Overall_Team'
 import Navbar from './components/Navbar/Navbar'
@@ -18,13 +17,14 @@ import {
   Link
 } from 'react-router-dom';
 import About from './components/About/About'
+import Events from './components/Events/Events'
 
 const OverAll_Design = () => {
   return (
     <>
      <Home />
      <About />
-     <Our_Events />
+     <Events />
      <Ecectika_Gallery />
      <Sponsor />
      <Contact />
