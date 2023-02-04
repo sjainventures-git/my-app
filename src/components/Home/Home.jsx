@@ -5,6 +5,8 @@ import Fade from 'react-reveal/Fade'
 import { motion } from 'framer-motion'
 import Ecectika_Gallery from '../Main_Gallery/Gallery'
 import Black_logo from '../../Images/black_logo.png'
+import CountdownTimer from './timer'
+import Try from './date'
 
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -39,7 +41,7 @@ const Home = () => {
              Lose yourself in the jurassic park in the wild and exciting events
           </motion.h4>
 
-
+        <Try/>
         </div>
       </div>
     </>
