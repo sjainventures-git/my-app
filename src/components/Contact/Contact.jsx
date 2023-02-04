@@ -5,7 +5,11 @@ import { FormLabel } from '@mui/material'
 import Form from '.././Form/Forms'
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom'
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+
+
+
   return (
     <div id='contact' className="Main_contact">
       <Fade bottom> <h1 className='footer_title'>ECLECTIKA</h1></Fade>
