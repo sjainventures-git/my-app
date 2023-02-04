@@ -9,7 +9,7 @@ import five from '../../Images/galleryfive.jpg'
 import six from '../../Images/gallerysix.jpg'
 import seven from '../../Images/galleryeight.png'
 
-import { Fade } from 'react-reveal/'
+import { Fade } from 'react-reveal'
 
 const Ecectika_Gallery = () => {
     return (

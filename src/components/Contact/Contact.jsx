@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import Logo from '../../Images/Main_logo.png'
 import { FormLabel } from '@mui/material'
-import Form from '.././Form/Forms'
+import Form from '../Form/Forms'
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser';
