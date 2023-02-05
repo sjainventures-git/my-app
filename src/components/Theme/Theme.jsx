@@ -7,8 +7,20 @@ const Theme = () => {
         <div><Fade bottom><h1 className="theme_title"> OUR THEME</h1></Fade></div>
       <div className="content_box">
       <p className="theme_content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi facilis saepe tempore optio debitis voluptatum dolorem sit dolore, magni sapiente impedit omnis rerum ipsa numquam sint veritatis officiis est odio amet neque perferendis vero? Error eaque, officiis cumque aut, recusandae obcaecati ipsam voluptates dolorem vero nulla dolorum similique eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro nulla voluptatibus sed nostrum labore facilis, animi eligendi id amet.
-        </p>
+      "God creates dinosaurs, God destroys dinosaurs. God creates Man, Man destroys God. Man creates dinosaurs."
+
+This iconic dialogue from Jurassic Park provided the perfect theme for Team SANSKRITI's ECLECTIKA'23. 
+
+When you're surrounded by the undisputed rulers of the planet, life should find a way to survive! 
+
+Are you excited??? 
+Ooohh, Aah,_
+That's how it always starts. But then later, there's running and screaming.
+
+We just want to say Hold on to your butts in Jurassic World jargon.
+
+Get ready for Time Travel into the prehistoric era! Fasten your seatbelts. 
+          </p>
       </div>
     </div>
   )
