@@ -9,9 +9,10 @@ import {
 
 function Link_two() {
   return (
-    <>
-      <Link to='team'>TEAM</Link> 
-    </>
+    <div style={{display:'flex', flexDirection:'column', textAlign:'center'}}>
+      <Link style={{marginTop:7}} to='team'>TEAM</Link> 
+      <Link style={{marginTop:7}}  to='merchandise'>MERCHANDISE</Link>
+    </div>
   )
 }
 

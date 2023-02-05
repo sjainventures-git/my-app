@@ -31,18 +31,18 @@ const Ecectika_Gallery = () => {
                      <p className='image_date' >2018</p>
                     </div>
                 </div>
-                <div className="card">
-                    <img src={three}/>
-                    <div className='image_text'>
-                    <h6 className='image_text' >LAGORI</h6>
-                     <p className='image_date' >2015</p>
-                    </div>
-                </div>
-                <div className="alt_card card">
+                <div className=" card"> 
                     <img src={four} />
                     <div className='image_text'>
                     <h6 className='image_text' >CLUB BANDITZ</h6>
                      <p className='image_date' >2018</p>
+                    </div>
+                </div>
+                <div className="alt_card  card">
+                    <img src={seven} />
+                    <div className='image_text'>
+                    <h6 className='image_text' >DJ SHILPI SHARMA</h6>
+                     <p className='image_date' >2017</p>
                     </div>
                 </div>
                 <div className="card">
@@ -52,20 +52,25 @@ const Ecectika_Gallery = () => {
                      <p className='image_date' >2017</p>
                     </div>
                 </div>
-                <div className="alt_card card">
+                <div className="alt_card  card">
                     <img src={six} />
                     <div className='image_text'>
                     <h6 className='image_text' >MOHIT CHOUHAN</h6>
                      <p className='image_date' >2016</p>
                     </div>
                 </div>
-                <div className="card">
-                    <img src={seven} />
+               
+                <div className="  card">
+                    <img src={three}/>
                     <div className='image_text'>
-                    <h6 className='image_text' >DJ SHILPI SHARMA</h6>
-                     <p className='image_date' >2017</p>
+                    <h6 className='image_text' >LAGORI</h6>
+                     <p className='image_date' >2015</p>
                     </div>
                 </div>
+               
+              
+              
+               
               
             </div>
             <div className="title_gallery">

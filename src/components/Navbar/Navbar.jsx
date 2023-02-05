@@ -85,6 +85,7 @@ function Navbar() {
         <Link variants={linkVariants}><a href="#contact">CONTACT</a></Link>
         <Link variants={linkVariants}><a href="#events">EVENTS</a></Link>
         <Link variants={linkVariants}><Link_two /></Link>
+        
       </Nav>
     </div>
    </>

@@ -59,6 +59,8 @@
     .about_content{
         text-align: center;
         width: 100%;
+        font-size: 15px;
+        padding: 20px;
     }
     
 }

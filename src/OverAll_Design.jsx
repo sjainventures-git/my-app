@@ -18,16 +18,19 @@ import {
 } from 'react-router-dom';
 import About from './components/About/About'
 import Events from './components/Events/Events'
+import Theme from './components/Theme/Theme'
 
 const OverAll_Design = () => {
   return (
     <>
      <Home />
      <About />
+     <Theme />
      <Events />
      <Ecectika_Gallery />
      <Sponsor />
      <Contact />
+     {/* <Sponsor /> */}
     </>
 
   )
