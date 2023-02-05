@@ -11,17 +11,14 @@ import { Link } from 'react-router-dom';
 
 export default function MerchandForm() {
 
-  const [user_name, setUser_name] = useState('');
-  const [user_email, setUser_email] = useState("");
-  const [user_contact, setUser_contact] = useState("");
-
+ 
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_7wfwqo5', 'template_4n5ncqb', form.current, 'TqO-LjB1jDL7sr4EH')
+    emailjs.sendForm('service_7wfwqo5', 'template_swu0mhz', form.current, 'TqO-LjB1jDL7sr4EH')
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
@@ -29,10 +26,6 @@ export default function MerchandForm() {
           console.log(error.text);
           console.log("message not sent")
       });
-
-    setUser_name('')
-    setUser_email('')
-    setUser_contact('')
   };
 
 
@@ -53,15 +46,11 @@ export default function MerchandForm() {
         autoComplete="off"
         ref={form} 
       >
-        <TextField className='input' id="standard-basic" label='Name' value={user_name} onChange={(e) =>{
-          setUser_name(e.target.value)
-        }}   variant="standard" />
-        <TextField  className='input' id="standard-basic" type='number' value={user_contact} onChange={(e) =>{
-          setUser_contact(e.target.value)
-        }}    label="Contact No" variant="standard" />
-        <TextField  className='input' id="standard-basic" value={user_email} onChange={(e) =>{
-          setUser_email(e.target.value)
-        }}   label="email" variant="standard" />
+       
+       <TextField id="standard-basic" name='user_name' label="Name" variant="standard" />
+        <TextField id="standard-basic" name='user_contact' label="Contact No" variant="standard" />
+        <TextField id="standard-basic" name='user_email' label="email" variant="standard" />
+        <TextField id="standard-basic" name='user_size' label="Size for merchandise (XS, S, M , L XL)" variant="standard" />
       </Box>
 
    <Link to={'/'}>
