@@ -2,13 +2,11 @@ import React, { useRef } from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
 import { motion } from 'framer-motion'
-<<<<<<< HEAD
+
 import Ecectika_Gallery from '../Main_Gallery/Gallery'
 import Black_logo from '../../Images/black_logo.png'
 import CountdownTimer from './timer'
 import Try from './date'
-=======
->>>>>>> master
 
 
 import Merchandise from '../../Images/merchan.png'
@@ -41,13 +39,9 @@ const Home = () => {
           <motion.h4 animate={{ opacity: [0, 1] }} transition={{ delay: 2, duration: 1 }} className="subtitle">
              Lose yourself in the jurassic park in the wild and exciting events
           </motion.h4>
-<<<<<<< HEAD
+
 
         <Try/>
-=======
-          
-
->>>>>>> master
         </div>
       </div>
     </>

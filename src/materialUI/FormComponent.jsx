@@ -44,8 +44,9 @@ export default function BasicTextFields() {
         ref={form} 
       >
         <TextField id="standard-basic" name='user_name' label="Name" variant="standard" />
-        <TextField id="standard-basic" name='user_email' label="Contact No" variant="standard" />
-        <TextField id="standard-basic" name='message' label="Any query" variant="standard" />
+        <TextField id="standard-basic" name='user_email' label="Email" variant="standard" />
+        <TextField id="standard-basic" name='user_contact' label="Any query" variant="standard" />
+        {/* <TextField id="standard-basic" name='user_size' label="Size for merchandise(XS, S, M , L , XL)" variant="standard" /> */}
       </Box>
 
       <Stack direction="row" className='submit' spacing={3}>
