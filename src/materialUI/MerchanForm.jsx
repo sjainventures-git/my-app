@@ -46,11 +46,15 @@ export default function MerchandForm() {
         autoComplete="off"
         ref={form} 
       >
-       
-       <TextField id="standard-basic" name='user_name' label="Name" variant="standard" />
-        <TextField id="standard-basic" name='user_contact' label="Contact No" variant="standard" />
-        <TextField id="standard-basic" name='user_email' label="email" variant="standard" />
-        <TextField id="standard-basic" name='user_size' label="Size for merchandise (XS, S, M , L XL)" variant="standard" />
+        <TextField className='input' id="standard-basic" label='Name' value={user_name} onChange={(e) =>{
+          setUser_name(e.target.value)
+        }}   variant="standard" />
+        <TextField  className='input' id="standard-basic" type='number' value={user_contact} onChange={(e) =>{
+          setUser_contact(e.target.value)
+        }}    label="Contact No" variant="standard" />
+        <TextField  className='input' id="standard-basic" value={user_email} onChange={(e) =>{
+          setUser_email(e.target.value)
+        }}   label="email" variant="standard" />
       </Box>
 
    <Link to={'/'}>
