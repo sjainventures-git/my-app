@@ -11,6 +11,10 @@ import { Link } from 'react-router-dom';
 
 export default function MerchandForm() {
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> d586e76a1a4f9e20c8fcb2eb832d7ac0f5005c82
 
   const form = useRef();
   const sendEmail = (e) => {
