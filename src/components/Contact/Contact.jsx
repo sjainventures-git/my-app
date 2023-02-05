@@ -14,6 +14,26 @@ const Contact = () => {
     <div id='contact' className="Main_contact">
       <Fade bottom> <h1 className='footer_title'>ECLECTIKA</h1></Fade>
       <Form />
+      <div className="left-side">
+					<div className="address details">
+						<i className="fas fa-map-marker-alt"></i>
+						<div className="topic">Address</div>
+						<div className="text-one">Great Eastern Rd, Amanaka</div>
+						<div className="text-two">Raipur, Chhattisgarh 492010</div>
+					</div>
+					<div className="phone details">
+						<i className="fas fa-phone-alt"></i>
+						<div className="topic">Phone</div>
+						
+						<div className="text-two"> 070936 75886</div>
+					</div>
+					<div className="email details">
+						<i className="fas fa-envelope"></i>
+						<div className="topic">Email</div>
+						<div className="text-one">teamsanskriti@nitrr.ac.in</div>
+						<div className="text-two">eclectika@nitrr.ac.in</div>
+					</div>
+				</div>
       <div className="footer_menu">
 
         <li><a href='#home'>HOME</a></li>
@@ -26,11 +46,11 @@ const Contact = () => {
       </div>
       <div className='icons_container'>
         <div className="footer_icons">
-          <a href="https://www.instagram.com/eclectika_nitrr/?hl=en" target='_blank'><i class="social_icon fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/eclectika-nit-raipur/?originalSubdomain=in" target='_blank'><i class="social_icon fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/eclectika.nitrr/" target='_blank'><i class="social_icon fab fa-facebook"></i></a>
-          <a href="https://twitter.com/eclectika_nitrr?lang=en" target='_blank'><i class="social_icon fab fa-twitter"></i></a>
-          <a href="https://www.youtube.com/channel/UCQ551qZJdqKoJkpBzUVtmTA" target='_blank'><i class="social_icon fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/eclectika_nitrr/?hl=en" target='_blank'><i className="social_icon fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/eclectika-nit-raipur/?originalSubdomain=in" target='_blank'><i className="social_icon fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/eclectika.nitrr/" target='_blank'><i className="social_icon fab fa-facebook"></i></a>
+          <a href="https://twitter.com/eclectika_nitrr?lang=en" target='_blank'><i className="social_icon fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCQ551qZJdqKoJkpBzUVtmTA" target='_blank'><i className="social_icon fab fa-youtube"></i></a>
         </div>
 
 

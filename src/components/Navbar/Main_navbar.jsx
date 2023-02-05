@@ -44,6 +44,7 @@ export default function Main_navbar() {
       <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#gallery">GALLERY</a></motion.li>
       <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><Link to='team'>TEAM</Link> </motion.li>
       <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><a href="#contact">CONTACT</a></motion.li>
+      <motion.li whileHover={{ scale:1.3 }} transition={{ duration: 0.1 }} className='nav-items'><Link to='merchandise'>MERCHANDISE</Link></motion.li>
       </div>
 
 

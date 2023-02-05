@@ -37,7 +37,7 @@ export default function BasicTextFields() {
         className='formwidth'
         component="form"
         sx={{
-          '& > :not(style)': { m: 1, width: '34ch' },
+          '& > :not(style)': { m: 1 },
         }}
         noValidate
         autoComplete="off"

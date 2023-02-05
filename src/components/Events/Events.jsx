@@ -1,28 +1,30 @@
 import React from 'react'
 import './Events.css'
-import eventone from '../../Images/galleryone.jpg'
-import eventwo from '../../Images/gallerytwo.jpg'
-import eventhree from '../../Images/gallerythree.jpg'
-import eventfour from '../../Images/galleryfour.jpg'
-import eventfive from '../../Images/galleryfive.jpg'
-import eventsix from '../../Images/gallerysix.jpg'
-import eventseven from '../../Images/galleryeight.png'
+import eventone from '../../Images/eventone.jpeg'
+import eventwo from '../../Images/eventtwo.jpeg'
+import eventhree from '../../Images/eventthree.jpeg'
+import eventfour from '../../Images/eventfour.jpeg'
+import eventfive from '../../Images/eventfive.jpeg'
+import eventsix from '../../Images/eventsix.jpeg'
+import eventseven from '../../Images/eventseven.jpeg'
 
 
 import { Fade } from 'react-reveal'
+import { Button } from '@mui/material'
+import { Link } from 'react-router-dom'
 const Events = () => {
   return (
     <div id='events' className='events'>
         <div className="maintilecon">
-            <h1 className="eventtitle">OUR EVENTS </h1>
+          <Fade bottom><h1 className="eventtitle">OUR EVENTS </h1></Fade>  
         </div>
         <div className="eventscon">
-            <h4>MEGA EVENTS</h4>
+         <Fade bottom>   <h4 className='subtitleevents'>MEGA EVENTS</h4></Fade>
             <div className="eventimgs">
               
                 <Fade bottom>
                 <img className='imge' src={eventone} alt="" srcset="" />
-               <img className='imge' src={eventwo} alt="" srcset="" />
+                <img className='imge' src={eventwo} alt="" srcset="" />
                 </Fade>
             </div>
             <div className="eventimgs">
@@ -40,6 +42,10 @@ const Events = () => {
                </Fade>
             </div>
            
+        </div>
+        <div className="events-footer">
+          <h4 className='events-footer-line'>This year Eclectika brings you 7 Mega events and 35 mini events</h4>
+          <Link to={'events'}><Button color='success'  variant="contained" >Tap here to explore</Button></Link>
         </div>
     </div>
   )
