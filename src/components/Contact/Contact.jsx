@@ -34,6 +34,14 @@ const Contact = () => {
 						<div className="text-two">eclectika@nitrr.ac.in</div>
 					</div>
 				</div>
+        <div className=" centeringmapvideo">
+				<div className="containerforvideo">
+					<iframe width="250px" height="140px" src="https://www.youtube.com/embed/oLviql5a63E"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+				</div>
+			</div>
       <div className="footer_menu">
 
         <li><a href='#home'>HOME</a></li>

@@ -24,12 +24,12 @@ import { Button, Paper } from '@mui/material';
 
 const MainEvents = () => {
   return (
-    <div className='events'>
+    <div className='mainevents'>
       <div className='close_icon_team'>
         <Link to={'/'}><Button color='error' variant="contained">Back to home</Button></Link>
       </div>
       <div className="maintilecon">
-        <Fade bottom><h1 className="eventtitle">OUR EVENTS </h1></Fade>
+        <Fade bottom><h1 style={{color:'black'}} className="eventtitle">OUR EVENTS </h1></Fade>
       </div>
       <div className="eventscon">
         <Fade bottom>   <h4 className='subtitleevents'>MEGA EVENTS</h4></Fade>

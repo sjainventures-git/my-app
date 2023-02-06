@@ -23,7 +23,8 @@
 }
 .merchantext{
     font-size: 17px;
-    text-align: right;
+    text-align:right;
+    color: aliceblue;
 }
 .form_paper_merchan{
     padding: 20px;
@@ -63,7 +64,8 @@
     }
     .merchantext{
         font-size: 15px;
-        text-align:left;
+        text-align:center;
+        padding: 20px;
     }
     
 }

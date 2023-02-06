@@ -12,6 +12,8 @@ import { Link } from 'react-router-dom';
 export default function MerchandForm() {
 
 
+
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -24,6 +26,9 @@ export default function MerchandForm() {
           console.log(error.text);
           console.log("message not sent")
       });
+
+
+    
   };
 
 
@@ -43,10 +48,10 @@ export default function MerchandForm() {
         autoComplete="off"
         ref={form} 
       >
-        <TextField id="standard-basic" name='user_name' label="Name" variant="standard" />
-        <TextField id="standard-basic" name='user_email' label="Email" variant="standard" />
-        <TextField id="standard-basic" name='user_contact' label="Any query" variant="standard" />
-        <TextField id="standard-basic" name='user_size' label="Size for merchandise(XS, S, M , L , XL)" variant="standard" />
+        <TextField id="standard-basic" name='user_name'  label="Name" type='name' variant="standard" />
+        <TextField id="standard-basic" name='user_email'   label="Email" type='email' variant="standard" />
+        <TextField id="standard-basic" name='user_contact'   label="Contact" type='number' variant="standard" />
+        <TextField id="standard-basic" name='user_size'   label="Size for merchandise(XS, S, M , L , XL)" variant="standard" />
 
       </Box>
 

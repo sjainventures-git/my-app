@@ -21,7 +21,7 @@ const Merchandise = () => {
           <img className='merchanImg' src={Merchand} alt="" srcset="" />
         </div>
         <div className="register_class">
-          <h4 className='merchantext'>Register your entry here and grab the merchandise</h4>
+          <h4 className='merchantext'>Register your entry here,  grab the merchandise </h4>
            <MerchandForm />
         </div>
     </div>

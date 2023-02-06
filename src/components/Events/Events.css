@@ -10,6 +10,18 @@
     background-size: cover;
     width: 100%;
 }
+.mainevents{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 480vh;
+    background: url('../../Images/regional-events-bg.jpg'), linear-gradient(rgba(31, 54, 115, 0.8), rgba(25, 57, 99, 0.8));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 .eventtitle{
     margin-top: 70px;
     color: aliceblue;
@@ -62,17 +74,6 @@
 }
 
 /*  mega events */
-.MainEvents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300vh;
-    background-color: black;
-    background: url('../../Images/Spons\ \(7\).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .mini_events_wrapper{
     background-color: aquamarine;
@@ -85,7 +86,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 350vh;
+        height: 390vh;
        
     }
     .eventtitle{

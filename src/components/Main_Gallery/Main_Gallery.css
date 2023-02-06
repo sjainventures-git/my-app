@@ -87,10 +87,10 @@
   margin-left: 7px;
   color: rgb(174, 174, 174);
 }
-@media (max-width:600px){
+@media (max-width:900px){
   .Overall_Gallery{
     margin: 0;
-    height: 300vh;
+    height: 400vh;
     background: #000;
     font-family: sans-serif;
     display: flex;

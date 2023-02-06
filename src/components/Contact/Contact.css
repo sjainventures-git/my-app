@@ -1,6 +1,6 @@
 .Main_contact{
     background: #000;
-    height:170vh;
+    height:180vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,12 +75,18 @@
     color: aliceblue;
     padding: 30px;
 }
+
+.centeringmapvideo{
+    justify-content: center;
+    display: flex;
+    height: 150px;
+}
 /* responsive in mobile */
 
 @media (max-width:900px) {
     .Main_contact{
         background: #000;
-        height: 225vh;
+        height: 250vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -88,6 +94,8 @@
         text-align: center;
         width: 100%;
         overflow: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
     }
    
     
@@ -145,5 +153,9 @@
     }
     .details{
         margin-top: 30px
+    }
+    .form_paper_merchan{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

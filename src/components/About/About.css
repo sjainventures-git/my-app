@@ -1,5 +1,4 @@
 .about{
-    background-color: #13294B;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -7,6 +6,10 @@
     flex-direction: column; 
      color: aliceblue;
      padding-top: 100px;
+     background:linear-gradient(rgba(3,4,49,0.7), rgba(3,4,49,0.7)), url('../../Images//9.jpg'),linear-gradient(rgba(3,4,49,0.4), rgba(3,4,49,0.4));
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .about_title{
