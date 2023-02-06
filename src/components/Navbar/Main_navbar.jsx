@@ -1,11 +1,10 @@
-import React, { useState, useRef , useEffect} from 'react';
+import React, { useState, useEffect} from 'react';
 import './Navbar.css'
 import { motion } from 'framer-motion'
 import Black_logo from '../../Images/mainn_logo.png'
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
+  
   Link
 } from 'react-router-dom';
 

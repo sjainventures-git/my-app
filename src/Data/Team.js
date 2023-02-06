@@ -13,7 +13,7 @@ import suraj from './teamimages/suraj.jpg';
 import umakant from './teamimages/umakant.jpg';
 import vamshi from './teamimages/vamshi.jpg';
 import yash from './teamimages/yash.jpeg';
-import vivek from './teamimages/vivek.png';
+import vivek from './teamimages/vivek.jpeg';
 import govind from './teamimages/govind.png';
 
 

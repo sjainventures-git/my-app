@@ -11,7 +11,7 @@ const MultiActionAreaCard = ({img, name, branch, domain, mobile, email}) => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="160"
+          height="190"
           image={img}
           alt="green iguana"
           className="image"
