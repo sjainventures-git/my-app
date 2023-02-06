@@ -36,21 +36,21 @@ const MainEvents = () => {
         <div className="eventimgs">
 
           <Fade bottom>
-            <img className='mainimage' src={eventone} alt="" srcset="" />
-            <img className='mainimage' src={eventwo} alt="" srcset="" />
+            <a href="https://www.instagram.com/p/CoMbrMeqjol/?hl=en" target='blank'><img className='mainimage' src={eventone} alt="" srcset="" /></a>
+            <a href="https://www.instagram.com/p/CoJx01jvSoH/?hl=en" target='blank'><img className='mainimage' src={eventwo} alt="" srcset="" /></a>
           </Fade>
         </div>
         <div className="eventimgs">
           <Fade bottom>
-            <img className='mainimage' src={eventfive} alt="" srcset="" />
-            <img className='mainimage' src={eventfour} alt="" srcset="" />
-            <img className='mainimage' src={eventhree} alt="" srcset="" />
+          <a href="https://www.instagram.com/p/CoKUCziK-qj/?hl=en" target='blank'><img className='mainimage' src={eventfive} alt="" srcset="" /></a>
+          <a href="https://www.instagram.com/p/CoJp82DKu5u/?hl=en" target='blank'><img className='mainimage' src={eventfour} alt="" srcset="" /></a>
+          <a href="https://www.instagram.com/p/CoMP8wRqn5J/?hl=en" target='blank'> <img className='mainimage' src={eventhree} alt="" srcset="" /></a>
           </Fade>
         </div>
         <div className="eventimgs">
           <Fade bottom>
-            <img className='mainimage' src={eventsix} alt="" srcset="" />
-            <img className='mainimage' src={eventseven} alt="" srcset="" />
+          <a href="https://www.instagram.com/p/CoH5IqGPkvO/?hl=en" target='blank'> <img className='mainimage' src={eventsix} alt="" srcset="" /></a>
+          <a href="https://www.instagram.com/p/CoL1gZVPZWm/?hl=en" target='blank'><img className='mainimage' src={eventseven} alt="" srcset="" /></a>
 
           </Fade>
         </div>
