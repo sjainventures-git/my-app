@@ -30,30 +30,6 @@ const team = [
         email: "",
        },
        {
-        img: saket,
-        name: "B.Saketh",
-        branch: "CIVIL",
-        domain: "Event Management",
-        mobile: 9550123649,
-        email: "bandarusaketh123@gmail.com"
-       },
-       {
-        img: majji,
-        name: "Majji Yaswanth Sai",
-        branch: "METALLURGY",
-        domain: "Event Management",
-        mobile: 9691988661,
-        email: "majjiyaswanthsai17@gmail.com"
-       },
-       {
-        img: krishna,
-        name: "Krishna Agrawal",
-        branch: "BIOMEDICAL",
-        domain: "Event Management",
-        mobile: 9893143930,
-        email: "krishnaagrawal1055@gmail.com"
-       },
-       {
         img: satwik,
         name: "Sathwik reddy ",
         branch: "CIVIL",
@@ -69,37 +45,38 @@ const team = [
         mobile: 6372048153,
         email: "gowthamkilaru23@gmail.com"
        },
+      
        {
-        img: suraj,
-        name: "Suraj",
-        branch: "BIOTECH",
-        domain: "Public Relations",
-        mobile: 9399761604,
-        email: "923surajsahu@gmail.com"
+        img: pawan,
+        name: "Pawan ",
+        branch: "METALLURGY",
+        domain: "Sponsorship",
+        mobile: 9902073785,
+        email: "vpawansudhir@gmail.com"
        },
        {
-        img: umakant,
-        name: "Umakant",
-        branch: "ELECTRICAL",
-        domain: "Public Relations",
-        mobile: 7089997141,
-        email: "293umakantsahu@gmail.com"
+        img: krishna,
+        name: "Krishna Agrawal",
+        branch: "BIOMEDICAL",
+        domain: "Event Management",
+        mobile: 9893143930,
+        email: "krishnaagrawal1055@gmail.com"
        },
        {
-        img: Laasya,
-        name: "K S Laasya",
-        branch: "ELECTRICAL",
-        domain: "Public Relations",
-        mobile: 8790799404,
-        email: "laasya2003@gmail.com"
+        img: yash,
+        name: "Yash Samarth",
+        branch: "CIVIL",
+        domain: "Sponsorship",
+        mobile: 8085204422,
+        email: "yashsamarth2001@gmail.com"
        },
        {
-        img: ashwin,
-        name: "Ashwin Sudhir Umale",
-        branch: "MECHANICAL",
-        domain: "Creatives",
-        mobile: 8982690492,
-        email: "ashwinumale2@gmail.com"
+        img: shruti,
+        name: "Shruti",
+        branch: "CHEMICAL",
+        domain: "Documentation",
+        mobile: 8349428617,
+        email: "rathshruti1415@gmail.com"
        },
        {
         img: govind,
@@ -117,6 +94,17 @@ const team = [
         mobile: 8688989980,
         email: "havilahbunga178100@gmail.com"
         },
+    
+       {
+        img: Laasya,
+        name: "K S Laasya",
+        branch: "ELECTRICAL",
+        domain: "Public Relations",
+        mobile: 8790799404,
+        email: "laasya2003@gmail.com"
+       },
+     
+      
         {
          img: rashi,
          name: "Rashi Sahu",
@@ -125,30 +113,52 @@ const team = [
          mobile: 9479283088,
          email: "rashisahu3088@gmail.com"
         },
-        {
-         img: yash,
-         name: "Yash Samarth",
-         branch: "CIVIL",
-         domain: "Sponsorship",
-         mobile: 8085204422,
-         email: "yashsamarth2001@gmail.com"
-        },
-        {
-         img: pawan,
-         name: "Pawan ",
-         branch: "METALLURGY",
-         domain: "Sponsorship",
-         mobile: 9902073785,
-         email: "vpawansudhir@gmail.com"
-        },
-        {
-        img: shruti,
-        name: "Shruti",
-        branch: "CHEMICAL",
-        domain: "Documentation",
-        mobile: 8349428617,
-        email: "rathshruti1415@gmail.com"
+       {
+        img: majji,
+        name: "Majji Yaswanth Sai",
+        branch: "METALLURGY",
+        domain: "Event Management",
+        mobile: 9691988661,
+        email: "majjiyaswanthsai17@gmail.com"
        },
+       {
+        img: umakant,
+        name: "Umakant",
+        branch: "ELECTRICAL",
+        domain: "Public Relations",
+        mobile: 7089997141,
+        email: "293umakantsahu@gmail.com"
+       },
+       {
+        img: ashwin,
+        name: "Ashwin Sudhir Umale",
+        branch: "MECHANICAL",
+        domain: "Creatives",
+        mobile: 8982690492,
+        email: "ashwinumale2@gmail.com"
+       },
+     
+       {
+        img: saket,
+        name: "B.Saketh",
+        branch: "CIVIL",
+        domain: "Event Management",
+        mobile: 9550123649,
+        email: "bandarusaketh123@gmail.com"
+       },
+       
+    
+       {
+        img: suraj,
+        name: "Suraj",
+        branch: "BIOTECH",
+        domain: "Public Relations",
+        mobile: 9399761604,
+        email: "923surajsahu@gmail.com"
+       },
+      
+        
+        
        {
         img: vivek,
         name: "vivek",

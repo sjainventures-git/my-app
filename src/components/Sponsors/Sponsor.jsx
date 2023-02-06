@@ -18,7 +18,7 @@ import newspons6 from '../../Images/newspons6.jpeg'
 import newspons7 from '../../Images/newspons7.jpeg'
 import newspons8 from '../../Images/newspons8.png'
 import newspons9 from '../../Images/newspons9.jpeg'
-
+import newspons19 from '../../Images/newspons10.jpeg'
 import Fade from 'react-reveal/Fade'
 
 const Sponsor = () => {
@@ -53,6 +53,7 @@ const Sponsor = () => {
     <div className=" spons_wrapper">
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons8} alt="" srcset="" /></div></Fade>
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons9} alt="" srcset="" /></div></Fade>
+    <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons19} alt="" srcset="" /></div></Fade>
     </div>
     
 </div>
