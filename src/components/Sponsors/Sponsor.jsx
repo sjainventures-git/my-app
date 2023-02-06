@@ -10,7 +10,7 @@ import spons_7 from '../../Images/spons_6.jpeg'
 import newspons1 from '../../Images/newspons1.jpg'
 import newspons2 from '../../Images/newspons2.jpeg'
 import newspons3 from '../../Images/newspons3.jpeg'
-// import newspons4 from '../../Images/newspons4.jpeg'
+import newspons4 from '../../Images/download.png'
 import newspons5 from '../../Images/newspons5.jpeg'
 import newspons6 from '../../Images/newspons6.jpeg'
 import newspons7 from '../../Images/newspons7.jpeg'
@@ -42,6 +42,7 @@ const Sponsor = () => {
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons5} alt="" srcset="" /></div></Fade>
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons6} alt="" srcset="" /></div></Fade>
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons7} alt="" srcset="" /></div></Fade>
+     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons4} alt="" srcset="" /></div></Fade>
     </div>
     <div className=" spons_wrapper">
     <Fade bottom><div className="spons_col"> <img className='sponsimg' src={newspons8} alt="" srcset="" /></div></Fade>
