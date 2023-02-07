@@ -86,7 +86,7 @@
     .sponsimg{
         height: 220px;
         width: 300px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 5px;
     }
     .spons_title{
@@ -134,7 +134,7 @@
     .sponsimg{
         height: 220px;
         width: 220px;
-        object-fit: cover;
+        /* object-fit: cover; */
         border-radius: 5px;
     }
     .spons_title{
