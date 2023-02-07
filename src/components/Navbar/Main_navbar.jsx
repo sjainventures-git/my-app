@@ -3,8 +3,6 @@ import './Navbar.css'
 import { motion } from 'framer-motion'
 import Black_logo from '../../Images/mainn_logo.png'
 import {
-  BrowserRouter as Router,
-  
   Link
 } from 'react-router-dom';
 
@@ -12,12 +10,12 @@ import {
 
 export default function Main_navbar() {
 
-  const [navSize, setnavSize] = useState("10rem");
+  // const [navSize, setnavSize] = useState("10rem");
   const [navColor, setnavColor] = useState("transparent");
 
   const listenScrollEvent = () => {
     window.scrollY > 100 ? setnavColor("#252734") : setnavColor("transparent");
-    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+    // window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);

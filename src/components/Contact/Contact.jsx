@@ -1,11 +1,11 @@
 import React from 'react'
 import './Contact.css'
-import Logo from '../../Images/Main_logo.png'
-import { FormLabel } from '@mui/material'
+// import Logo from '../../Images/Main_logo.png'
+// import { FormLabel } from '@mui/material'
 import Form from '../Form/Forms'
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 const Contact = () => {
 
 
@@ -54,11 +54,11 @@ const Contact = () => {
       </div>
       <div className='icons_container'>
         <div className="footer_icons">
-          <a href="https://www.instagram.com/eclectika_nitrr/?hl=en" target='_blank'><i className="social_icon fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/eclectika-nit-raipur/?originalSubdomain=in" target='_blank'><i className="social_icon fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/eclectika.nitrr/" target='_blank'><i className="social_icon fab fa-facebook"></i></a>
-          <a href="https://twitter.com/eclectika_nitrr?lang=en" target='_blank'><i className="social_icon fab fa-twitter"></i></a>
-          <a href="https://www.youtube.com/channel/UCQ551qZJdqKoJkpBzUVtmTA" target='_blank'><i className="social_icon fab fa-youtube"></i></a>
+          <a rel="noreferrer" href="https://www.instagram.com/eclectika_nitrr/?hl=en" target='_blank'><i className="social_icon fab fa-instagram"></i></a>
+          <a rel="noreferrer" href="https://www.linkedin.com/company/eclectika-nit-raipur/?originalSubdomain=in" target='_blank'><i className="social_icon fab fa-linkedin"></i></a>
+          <a rel="noreferrer" href="https://www.facebook.com/eclectika.nitrr/" target='_blank'><i className="social_icon fab fa-facebook"></i></a>
+          <a rel="noreferrer" href="https://twitter.com/eclectika_nitrr?lang=en" target='_blank'><i className="social_icon fab fa-twitter"></i></a>
+          <a rel="noreferrer" href="https://www.youtube.com/channel/UCQ551qZJdqKoJkpBzUVtmTA" target='_blank'><i className="social_icon fab fa-youtube"></i></a>
         </div>
 
 

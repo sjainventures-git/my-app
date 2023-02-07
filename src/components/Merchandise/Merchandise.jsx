@@ -9,7 +9,7 @@ import MerchandForm from '../../materialUI/MerchanForm'
 
 import { Link } from 'react-router-dom';
 
-import { Button, Paper } from '@mui/material'; 
+import { Button } from '@mui/material'; 
 
 const Merchandise = () => {
   return (

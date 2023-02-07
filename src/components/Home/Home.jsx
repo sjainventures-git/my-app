@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
 import { motion } from 'framer-motion'

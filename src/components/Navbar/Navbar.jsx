@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Header, Nav, Link, SvgBox } from "./Styles";
 
 import "./Navbar.css";
-import Main_navbar from "./Main_navbar";
-import Link_two from "../Links/Link_two";
+import MainNavbar from "./Main_navbar";
+import LinkTwo from "../Links/Link_two";
 
 
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isItOpen, setIsItOpen] = useState(false);
-  const handleToggle = () => setIsItOpen(!isItOpen);
+  // const [isItOpen, setIsItOpen] = useState(false);
+  // const handleToggle = () => setIsItOpen(!isItOpen);
 
   const iconVariants = {
     opened: {
@@ -47,7 +47,7 @@ function Navbar() {
 
   return (
    <>
-     <div className='Main_navbar'><Main_navbar /> </div>
+     <div className='Main_navbar'><MainNavbar /> </div>
      <div className="Navbar">
       <Header>
         <SvgBox
@@ -84,7 +84,7 @@ function Navbar() {
         <Link variants={linkVariants}><a href="#gallery">GALLERY</a></Link>
         <Link variants={linkVariants}><a href="#contact">CONTACT</a></Link>
         <Link variants={linkVariants}><a href="#events">EVENTS</a></Link>
-        <Link variants={linkVariants}><Link_two /></Link>
+        <Link variants={linkVariants}><LinkTwo /></Link>
         
       </Nav>
     </div>

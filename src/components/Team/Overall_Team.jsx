@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 import { Link } from 'react-router-dom';
 
-import { Button, Paper } from '@mui/material';
+import { Button } from '@mui/material';
 const Overall_Team = () => {
   return (
     <div className='overall_team'>

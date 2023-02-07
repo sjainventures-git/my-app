@@ -18,42 +18,42 @@ const Ecectika_Gallery = () => {
             <div className="container">
 
                 <div className="card">
-                    <img src={one} />
+                    <img src={one} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >SALIM SULAIMAN</h6>
                      <p className='image_date' >2018</p>
                     </div>
                 </div>
                 <div className="alt_card card">
-                    <img src={two} />
+                    <img src={two} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >D J Kunal</h6>
                      <p className='image_date' >2018</p>
                     </div>
                 </div>
                 <div className=" card"> 
-                    <img src={four} />
+                    <img src={four} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >CLUB BANDITZ</h6>
                      <p className='image_date' >2018</p>
                     </div>
                 </div>
                 <div className="alt_card  card">
-                    <img src={seven} />
+                    <img src={seven} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >DJ SHILPI SHARMA</h6>
                      <p className='image_date' >2017</p>
                     </div>
                 </div>
                 <div className="card">
-                    <img src={five} />
+                    <img src={five} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >SACHIN JIGAR</h6>
                      <p className='image_date' >2017</p>
                     </div>
                 </div>
                 <div className="alt_card  card">
-                    <img src={six} />
+                    <img src={six} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >MOHIT CHOUHAN</h6>
                      <p className='image_date' >2016</p>
@@ -61,7 +61,7 @@ const Ecectika_Gallery = () => {
                 </div>
                
                 <div className="  card">
-                    <img src={three}/>
+                    <img src={three} alt="" />
                     <div className='image_text'>
                     <h6 className='image_text' >LAGORI</h6>
                      <p className='image_date' >2015</p>

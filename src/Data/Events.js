@@ -1,7 +1,3 @@
-
-
-
-
 const MiniEvents = [
       {
         e_desc: "Nail Art",
@@ -103,7 +99,6 @@ const MiniEvents = [
         desc: "Musical Chair- This will be a fun event.In first round we will have maximum of 10 chairs "
        
        },
-       ,
        {
         e_desc: "Spin the Wheel",
         desc: "We will have various task written over a wheel with a number and assign the number to participants playing the game"
@@ -129,9 +124,7 @@ const MiniEvents = [
         e_desc: "Mad Ads",
         desc: "It is an online event in which a group of participants will shoot short and funny ads "
        
-       },
-       
- 
+       }
 ]
 
 export default MiniEvents
